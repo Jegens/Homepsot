@@ -1,0 +1,2 @@
+[31-Jan-2019 19:04:29 UTC] PHP Warning:  move_uploaded_file(/home/homespotjegendes/public_html/assets/files/1548961469profile-photo-default.jpg): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/core/util.php on line 56
+[31-Jan-2019 19:04:29 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpZcnQiW' to '/home/homespotjegendes/public_html/assets/files/1548961469profile-photo-default.jpg' in /home/homespotjegendes/public_html/core/util.php on line 56

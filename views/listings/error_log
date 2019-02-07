@@ -1,0 +1,70 @@
+[25-Jan-2019 03:32:07 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/listings/index.php on line 1
+[25-Jan-2019 03:32:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/listings/index.php on line 1
+[30-Jan-2019 19:28:37 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/homespotjegendes/public_html/views/listings/view.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/listings/view.php on line 8
+[30-Jan-2019 20:51:19 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/homespotjegendes/public_html/models/listing.php on line 25
+[31-Jan-2019 18:17:32 UTC] PHP Warning:  Missing argument 1 for Listing::get_all(), called in /home/homespotjegendes/public_html/views/listings/index.php on line 75 and defined in /home/homespotjegendes/public_html/models/listing.php on line 8
+[06-Feb-2019 04:20:37 UTC] PHP Parse error:  syntax error, unexpected 'listings' (T_STRING) in /home/homespotjegendes/public_html/models/listing.php on line 100
+[06-Feb-2019 04:24:11 UTC] PHP Parse error:  syntax error, unexpected 'listings' (T_STRING) in /home/homespotjegendes/public_html/models/listing.php on line 105
+[07-Feb-2019 04:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Util::startsWith() in /home/homespotjegendes/public_html/core/init.php:24
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 24
+[07-Feb-2019 04:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Util::startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 16:56:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 16:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:01:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:03:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:04:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:04:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/listings/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22

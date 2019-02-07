@@ -1,0 +1,870 @@
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/* ====================================
+   BODY
+   ==================================== */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+   font-family: 'Helvetica Neue LT Std';
+   color: #313131;
+   font-size: 16px;
+}
+
+/* ------------ Font ------------ */
+.bc-font{
+    font-family: 'Big Caslon';
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    color:
+}
+
+h4{
+    font-size: 34px;
+    font-family: 'Big Caslon';
+}
+
+.user-error-message{
+    font-size: 14px;
+    color: red;
+    margin-bottom: -20px;
+}
+
+
+/* ------------ Buttons ------------ */
+#file-with-preview{
+    display: none;
+}
+.upload-photo-btn.inputfile + label{
+    background: #313131;
+    color: white;
+    display: block;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    border: none;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upload-photo-btn.inputfile:focus + label, .upload-photo-btn.inputfile + label:hover{
+    background: #FAA13A;
+    cursor: pointer;
+}
+
+.bl-btn, .or-btn{
+    background: #313131;
+    color: white;
+    display: block;
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    border: none;
+}
+
+.bl-btn:hover, .or-btn:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.or-btn{
+    background: #FAA13A;
+}
+
+.bl-btn:hover{
+    background: #FAA13A;
+}
+
+.or-btn:hover{
+    background: #313131;
+}
+
+/* ------------ Colors ------------ */
+.o-text{
+    color: #FAA13A;
+}
+
+.lg-text{
+    color: #707070;
+}
+
+.mg-text{
+    color: #919191;
+}
+
+.c-text{
+    color: #313131;
+}
+
+.lg-bg{
+    background: #F5F5F5;
+}
+
+/* ====================================
+   NAVIGATION BAR
+   ==================================== */
+
+nav{
+    border-bottom: 2px solid #FAA13A;
+}
+
+#navWrap{
+    width: 90%;
+    max-width: 1140px;
+}
+
+.navbar-brand img{
+    width: 100%;
+    max-width: 150px;
+}
+
+.navbar-nav{
+    padding-top: 10px;
+}
+
+nav li{
+    padding-left: 30px;
+}
+
+.navbarDropdown::after{
+    color: #FAA13A;
+}
+
+.nav-link{
+    margin-left: auto;
+}
+
+.dropdown-menu{
+    left: auto;
+    right: auto;
+}
+
+/* ====================================
+   FOOTER
+   ==================================== */
+footer{
+    background: #F5F5F5;
+    border-top: 2px solid #FAA13A;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+footer a{
+    padding-left: 10px;
+    color: #313131;
+}
+
+footer a:hover{
+    color: #FAA13A
+}
+
+.social-media-wrap{
+    width: 90%;
+    max-width: 1140px;
+}
+
+/* ====================================
+   NAV SPLASH
+   ==================================== */
+
+.splash-title{
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel li.active{
+    background: #FAA13A;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+}
+
+#carouselExampleIndicators img{
+    min-height: 350px;
+    overflow-x: hidden;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    z-index: 10;
+    width: 120px;
+}
+
+.splash-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 140px;
+}
+
+@media (max-width: 576px) {
+    .carousel-control-prev, .carousel-control-next{
+        display: none
+    }
+}
+
+/* ====================================
+   SEARCH BAR
+   ==================================== */
+
+/* ------------ HOME PAGE ------------ */
+
+.search-bar{
+    background: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.search-bar .form-group{
+    margin: 15px 8px;
+}
+
+.search-bar input, .search-bar select{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.search-bar select{
+    margin-right: 30px;
+}
+
+.search-submit{
+    margin: 15px 8px;
+    background: #FAA13A;
+    color: white;
+    width: 100px;
+}
+
+.search-bar input{
+    padding-left: 10px;
+}
+
+#citySelect::placeholder{
+    color: #495057;
+}
+
+@media (max-width: 1280px){
+    .search-bar #buildingTypeSelect{
+        display: none;
+    }
+}
+
+@media (max-width: 1080px){
+    .search-bar #bedSelect, .search-bar #bathSelect{
+        display: none;
+    }
+    .splash-title{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 830px){
+    .search-bar #minPriceSelect, .search-bar #maxPriceSelect{
+        display: none;
+    }
+    .splash-title{
+        font-size: 35px;
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ------------ LISTINGS PAGE ------------ */
+
+.search-wrap, .title-wrap, .view-title-wrap{
+    background: #F5F5F5;
+}
+
+.search-wrap h2{
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.search-wrap .search-bar{
+    margin-bottom: 55px;
+}
+
+/* ====================================
+   RECENTLY LISTED
+   ==================================== */
+
+.recent-posts{
+    padding-top: 40px;
+}
+
+.listing-card, .realtor-card{
+    border: 2px solid #FAA13A;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+    width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listing-card .card-header{
+    background-size: contain;
+    padding: 0;
+    height: 200px;
+    background: none;
+    border-bottom: 2px solid #FAA13A;
+}
+
+.listing-card .card-header img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.listing-card .card-body{
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+.listing-card .card-footer, .realtor-card .card-footer{
+    border-radius: 0 0 10px 10px;
+    font-size: 13px;
+    border-top: none;
+    padding: 0;
+}
+
+.edit-listing-link, .view-listing-link, .delete-listing-link, .view-realtor-link, .love-listing-link{
+    text-align: center;
+    color: #313131;
+    padding: 6px 0 2px 0;
+}
+
+.edit-listing-link:hover, .view-listing-link:hover, .delete-listing-link:hover, .view-realtor-link:hover, .love-listing-link:hover{
+    text-decoration: none;
+    background: #FDE2C2;
+    color: #313131;
+    cursor: pointer;
+}
+
+.view-realtor-link{
+    border-radius: 0 0 10px 10px;
+}
+
+.edit-listing-link, .love-listing-link{
+    border-radius: 0 0 0px 10px;
+}
+
+.delete-listing-link{
+    border-radius: 0 0 10px 0px;
+}
+
+.card-building-title, .card-building-address1, .card-building-address2{
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.card-building-info{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.card-building-address2{
+line-height: .75rem;
+margin-bottom: 5px;
+}
+
+.card-building-price{
+    position: absolute;
+    width: 60%;
+    background: #FAA13A;
+    top: 48%;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.card-building-price p{
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+/* ====================================
+   FIND AGENT & TOOL SECTION
+   ==================================== */
+
+.find-agent-wrap{
+    margin: 0 0 60px 0;
+}
+
+.find-agent-wrap .row{
+    padding-top: 60px;
+}
+
+.find-agent-wrap .row, .mortgage-calc-wrap .row{
+    padding-bottom: 60px;
+}
+
+.realtor-pic, .calculator-pic{
+    width: 230px;
+    margin-top: -15px;
+}
+
+@media (max-width: 768px){
+    .findYourAgent, .findYourTool{
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .realtor-pic, .calculator-pic{
+        margin-top: 25px;
+    }
+}
+
+/* ====================================
+   SIGNUP PAGE
+   ==================================== */
+
+.signup-section, .login-section{
+    height: 100%;
+    min-height: 520px;
+    background-image: url("/assets/images/splash/hazy-cityscape.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.signup-card-wrap, .login-card-wrap{
+    width: 340px;
+    height: 430px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.signup-card, .login-card{
+    border: 2px solid #FAA13A;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    width: 336px;
+    height: 426px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-card input , .login-card input{
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-card input::placeholder, .login-card input::placeholder{
+    color: #919191;
+}
+
+.signup-card img, .login-card img{
+    width: 150px;
+}
+
+.signup-card .card-header, .login-card .card-header{
+    background: none;
+    border-bottom: none;
+    padding: 45px 0 25px 0;
+}
+
+.signup-card .card-body, .login-card .card-body{
+    padding-bottom: 35px;
+}
+
+.signup-card .card-footer, .login-card .card-footer{
+    border-radius: 0 0 10px 10px;
+    font-size: 13px;
+    padding: 10px 0 5px 0 ;
+    background: #FDE2C2;
+    border-top: none;
+}
+
+.signup-submit, .login-submit{
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.signup-submit:hover, .login-submit:hover{
+    cursor: pointer;
+}
+
+.signup-card a:hover, .login-card a:hover{
+    text-decoration: none;
+    color: #313131;
+}
+
+/* ====================================
+   ACTIVE LISTING SECTION
+   ==================================== */
+
+.active-posts, .active-realtors{
+    padding-top: 40px;
+    min-height: calc(100% - 354px);
+}
+
+/* ====================================
+   LISTING PHOTO SECTION
+   ==================================== */
+
+.images-wrap i{
+    color: #919191;
+}
+
+.images-wrap i, .key-points span{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.key-points{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.property-pic-primary, .property-pic-secondary{
+    border: 2px solid #FAA13A;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.property-pic-primary{
+    height: 294px;
+}
+
+.property-pic-secondary{
+    height: 90px;
+}
+
+.listing-wrap .images-wrap{
+    padding-right: 60px;
+}
+
+@media (max-width: 991px){
+    .listing-wrap .images-wrap{
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 576px){
+    .key-points br{
+        display: none;
+    }
+}
+
+/* ====================================
+  LISTING INFO SECTION
+  ==================================== */
+
+.title-wrap{
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.view-title-wrap{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.view-title-wrap p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FAA13A;
+    margin-bottom: 1px;
+}
+
+.listing-wrap{
+    padding-top: 30px;
+    min-height: calc(100% - 267px);
+}
+
+.listing-wrap label{
+    font-weight: bold;
+}
+
+.listing-wrap input, .listing-wrap select{
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.listing-wrap input::placeholder, .listing-wrap select::placeholder{
+    color: #495057;
+}
+
+.listing-wrap input{
+    padding-left: 10px;
+    width: 100%;
+}
+
+.listing-wrap hr{
+    border: 1px solid #FAA13A;
+    margin: 0 0 16px 0;
+}
+
+#create-submit-btn{
+    width: 180px;
+    margin-bottom: 55px;
+    border: none;
+}
+
+.listing-wrap select{
+    margin-right: 30px;
+}
+
+.listing-wrap textarea{
+    padding-left: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.view-listing-wrap p{
+    font-size: 15px;
+}
+
+.detailTitleField span{
+    color: #919191;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.detailTitleField p{
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 0;
+}
+
+.detailRealtorField span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.detailRealtorField p{
+    color: #919191;
+    font-weight: 500;
+}
+
+.listing-realtor-section a{
+    color: #313131;
+}
+
+.listing-realtor-section a:hover{
+    color: #FAA13A;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px){
+    .detailRealtorField{
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px){
+    .create-listing-form, .view-listing-wrap{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+/* ====================================
+   REALTOR LIST
+   ==================================== */
+
+.realty-profile-pic-container{
+    height: 115px;
+    width: 115px;
+    min-height: 115px;
+    min-width: 115px;
+    border-radius: 10px;
+    border: 2px solid #FAA13A;
+    transform: rotate(45deg);
+    margin: 45px auto 0 auto;
+    overflow: hidden;
+}
+
+.realtor-card .card-header{
+    background-size: contain;
+    padding: 0;
+    height: 198px;
+    background: none;
+    border-bottom: 2px solid #FAA13A;
+}
+
+.realtor-card .card-header img, .realtor-profile-pic{
+    height: 140%;
+    width: 140%;
+    margin-top: -20%;
+    margin-left: -20%;
+    border-radius: 10px;;
+    object-fit: cover;
+    transform: rotate(-45deg);
+}
+
+.active-realtors .card-header{
+    border-bottom: none;
+}
+
+.active-realtors .card-body{
+    text-align: center;
+    padding: 0 0 10px 0;
+    min-height: 147px;
+}
+
+.card-realtor-name{
+    font-size: 20px;
+    font-family: 'Big Caslon';
+    margin-bottom: 0px;
+}
+
+.card-realtor-office{
+    font-size: 18px;
+    color: #919191;
+    margin-bottom: 5px;
+}
+
+.realtor-card .card-building-address1, .realtor-card .card-building-address2{
+    color: #BCBCBC;
+}
+
+.card-building-address2{
+    margin-bottom: 15px;
+}
+
+.realtor-contact-links{
+    color: #313131;
+}
+
+.realtor-contact-links:hover{
+    text-decoration: none;
+    color: #313131;
+}
+
+.realtor-contact-links:hover i{
+    text-decoration: none;
+    color: #FAA13A;
+}
+
+.realtor-links i{
+    color: #919191;
+    padding: 0 15px;
+}
+
+.realtor-links i:hover{
+    color: #FAA13A;
+    text-decoration: none;
+}
+
+/* ====================================
+   EDIT REALTOR
+   ==================================== */
+
+#edit-submit-btn{
+    width: 180px;
+    margin-bottom: 55px;
+    border: none;
+    margin-top: 9px;
+}
+
+.realtor-image-wrap{
+    padding-right: 40px;
+}
+
+.realtor-image-wrap .realty-profile-pic-container{
+    height: 220px;
+    width: 220px;
+    min-height: 220px;
+    min-width: 220px;
+}
+
+.title-wrap .realty-profile-pic-container{
+    margin: 15px auto 30px auto;
+}
+
+.realtor-image-wrap img{
+    height: 140%;
+    width: 140%;
+    margin-top: -20%;
+    margin-left: -20%;
+    border-radius: 10px;;
+    object-fit: cover;
+    transform: rotate(-45deg);
+}
+
+.seeAllHomes{
+    margin-bottom: 60px;
+}
+
+.realtor-bio{
+    color: #919191;
+    padding-top: 25px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.realtor-bio p{
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 991px){
+    .realtor-image-wrap{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 576px){
+    .pad-small{
+        padding-top: 10px;
+    }
+}

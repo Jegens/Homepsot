@@ -1,0 +1,110 @@
+[24-Jan-2019 18:13:57 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 18:13:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 18:15:03 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:15:03 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:15:50 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:15:50 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:15:54 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:15:54 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:16:06 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:16:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:16:20 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:16:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:16:35 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 18:16:35 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/signup.php on line 1
+[24-Jan-2019 21:46:22 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 21:46:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 21:46:38 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 21:46:38 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 21:46:39 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[24-Jan-2019 21:46:39 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[25-Jan-2019 03:09:15 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[25-Jan-2019 03:09:15 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/login.php on line 1
+[27-Jan-2019 20:18:04 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/view.php on line 1
+[27-Jan-2019 20:18:04 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/view.php on line 1
+[27-Jan-2019 20:18:21 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/view.php on line 133
+[27-Jan-2019 20:18:21 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/view.php on line 133
+[27-Jan-2019 20:18:50 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/homespotjegendes/public_html/views/users/view.php on line 43
+[27-Jan-2019 20:18:50 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/homespotjegendes/public_html/views/users/view.php on line 43
+[29-Jan-2019 18:18:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'lovejege_sdfs432'@'localhost' to database 'homespot_sadf8s798' in /home/homespotjegendes/public_html/core/db.php on line 40
+[29-Jan-2019 22:50:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 84
+[29-Jan-2019 22:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 76
+[29-Jan-2019 22:51:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 76
+[29-Jan-2019 22:51:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 76
+[29-Jan-2019 22:52:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 76
+[29-Jan-2019 22:53:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 84
+[29-Jan-2019 22:53:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/edit.php on line 84
+[30-Jan-2019 03:20:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 03:22:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 06:38:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 06:40:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 06:40:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 06:40:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 06:40:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 16:34:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Realtor' not found in /home/homespotjegendes/public_html/views/users/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/index.php on line 39
+[30-Jan-2019 17:19:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/homespotjegendes/public_html/views/users/index.php on line 42
+[30-Jan-2019 21:27:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_by_id() on null in /home/homespotjegendes/public_html/views/users/view.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/view.php on line 8
+[30-Jan-2019 21:27:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_by_id() on null in /home/homespotjegendes/public_html/views/users/view.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/view.php on line 8
+[30-Jan-2019 21:27:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_by_id() on null in /home/homespotjegendes/public_html/views/users/view.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/view.php on line 8
+[31-Jan-2019 16:59:58 UTC] PHP Warning:  Missing argument 1 for Listing::get_all_by_user_id(), called in /home/homespotjegendes/public_html/views/users/view.php on line 58 and defined in /home/homespotjegendes/public_html/models/listing.php on line 20
+[31-Jan-2019 17:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_by_user_id() on null in /home/homespotjegendes/public_html/views/users/view.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/homespotjegendes/public_html/views/users/view.php on line 57
+[07-Feb-2019 04:29:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Util::startsWith() in /home/homespotjegendes/public_html/core/init.php:24
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/users/signup.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 24
+[07-Feb-2019 04:45:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Util::startsWith() in /home/homespotjegendes/public_html/core/init.php:24
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/users/view.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 24
+[07-Feb-2019 04:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Util::startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/users/view.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
+[07-Feb-2019 17:07:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function startsWith() in /home/homespotjegendes/public_html/core/init.php:22
+Stack trace:
+#0 /home/homespotjegendes/public_html/core/includes.php(19): require_once()
+#1 /home/homespotjegendes/public_html/views/users/index.php(1): require_once('/home/homespotj...')
+#2 {main}
+  thrown in /home/homespotjegendes/public_html/core/init.php on line 22
